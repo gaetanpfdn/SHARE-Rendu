@@ -1,0 +1,61 @@
+.con,
+.special-con {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.bar {
+  display: block;
+  height: 3px;
+  width: 25px;
+  background: #fff;
+  margin: 5px auto;
+}
+
+.con {
+  width: auto;
+  margin: 0 auto;
+  -webkit-transition: all .7s ease;
+  -moz-transition: all .7s ease;
+  -ms-transition: all .7s ease;
+  -o-transition: all .7s ease;
+  transition: all .7s ease;
+}
+/* icon menu hamburger*/
+.col {
+  display: inline-block;
+  text-align: center;
+  height: auto;
+  position: relative;
+}
+
+.middle {
+  margin: 0 auto;
+}
+
+.bar {
+  -webkit-transition: all .7s ease;
+  -moz-transition: all .7s ease;
+  -ms-transition: all .7s ease;
+  -o-transition: all .7s ease;
+  transition: all .7s ease;
+}
+
+.con:hover .top {
+  -webkit-transform: translateY(8px) rotateZ(45deg);
+  -moz-transform: translateY(8px) rotateZ(45deg);
+  -ms-transform: translateY(8px) rotateZ(45deg);
+  -o-transform: translateY(8px) rotateZ(45deg);
+  transform: translateY(8px) rotateZ(45deg);
+}
+
+.con:hover .bottom {
+  -webkit-transform: translateY(-8px) rotateZ(-45deg);
+  -moz-transform: translateY(-8px) rotateZ(-45deg);
+  -ms-transform: translateY(-8px) rotateZ(-45deg);
+  -o-transform: translateY(-8px) rotateZ(-45deg);
+  transform: translateY(-8px) rotateZ(-45deg);
+}
+.con:hover .middle {
+  width: 0;
+}

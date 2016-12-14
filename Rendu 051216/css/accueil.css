@@ -1,0 +1,66 @@
+/* Splash screen */
+#splash{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #4F4F4F;
+  background-image: url("../img/Photo1.png");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.fadeout{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.fadein{
+  visibility: visible;
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.isplaying{
+  background-color: cyan;
+}
+.photo{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/chaton.png");
+  background-position: center;
+  background-size: cover;
+}
+.musique{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/musique.png");
+  background-position: center;
+  background-size: cover;
+}
+.video{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/interstellar.png");
+  background-position: center;
+  background-size: cover;
+}
+.documents{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/document.png");
+  background-position: center;
+  background-size: cover;
+}
+.image-back{
+ display: inline-block;
+ width: 100vw;
+}

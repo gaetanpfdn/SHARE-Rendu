@@ -1,0 +1,80 @@
+
+@keyframes slide-dir{
+  from{padding-left:100px}
+  to{padding-left:0px}
+}
+@keyframes fadeOut{
+  0%{opacity:1}
+  100%{opacity: 0}
+}
+#media-renderers {
+  display: flex;
+  background-color: #4F4F4F;
+  width: 100%;
+  transition:all .25s ease-in-out;
+  height: 10vh;
+  position: relative;
+  box-shadow:10px 20px 70px 20px rgba(0,0,0,0.30);
+}
+
+#media-renderers.open {
+  height: 25vh;
+}
+
+h3{
+    left: 5vw;
+    text-align: left;
+    color: white ;
+    font-size: 15px;
+    position: fixed;
+    display: inline-block;
+    position: absolute;
+    margin: 10px 0px 10px 0px;
+ }
+ #icondrop{
+   float: right;
+   color: #0ABFBF;
+   right: 9vw;
+   position: absolute;
+ }
+.glyphicon-save{
+  display: inline-block;
+  color: white;
+  margin: 10px;
+  position: relative;
+}
+.slideTop{
+  top: 50vh;
+  height: 50vh;
+}
+.list-player1{
+  text-align: center;
+  background-color: #37D9CD;
+  position: fixed;
+  margin-top: 40px;
+}
+.list-player2{
+  text-align: center;
+  background-color: #21D3CE;
+  position: fixed;
+  margin-top: 40px;
+}
+.list-player3{
+  text-align: center;
+  background-color:#0ABFBF;
+  position: fixed;
+  margin-top: 40px;
+}
+
+.col-sm-4{
+  display: inline-block;
+  width: auto;
+  height: 25vh;
+  position: relative;
+  width: 33.5%;
+}
+.col-sm-4 p{
+  margin-top: 25px;
+  color: white;
+  padding-top: 5px;
+}

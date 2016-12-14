@@ -1,0 +1,75 @@
+/* Contenu page2 */
+
+.list-music{
+    margin-left: 0vw;
+}
+.list-music ul{
+  padding: 0px;
+  list-style-type: none;
+}
+#artiste{
+  width: 100%;
+  height: 19.5vh;
+  background-color: #3AE5DC;
+}
+#artiste .glyphicon-chevron-right{
+color: white;
+float: right;
+margin-right: 20px;
+width: 2em;
+display: block;
+margin: 4em auto 0px;
+}
+#album{
+  width: 100%;
+  height: 19.5vh;
+  background-color: #37D9CD;
+}
+#album .glyphicon-chevron-right{
+color: white;
+float: right;
+margin-right: 20px;
+width: 2em;
+display: block;
+margin: 4em auto 0px;
+}
+#titres{
+  width: 100%;
+  height: 19.5vh;
+  background-color: #21D3CE;
+}
+#titres .glyphicon-chevron-right{
+color: white;
+float: right;
+margin-right: 20px;
+width: 2em;
+display: block;
+margin: 4em auto 0px;
+}
+#playlists{
+  width: 100%;
+  height: 19.5vh;
+  background-color: #0ABFBF;
+}
+#playlists .glyphicon-chevron-right{
+color: white;
+float: right;
+margin-right: 20px;
+width: 2em;
+display: block;
+margin: 4em auto 0px;
+}
+.h2-titre{
+  display: inline-block;
+  margin: 7vh 0px 0px 20px;
+  text-align: left;
+  color: white ;
+  font-size: 20px;
+  font-weight: bold;
+}
+.p-stitre{
+  margin: 0px 0px 0px 20px;
+  text-align: left;
+  color: white ;
+  font-size: 14px;
+}
