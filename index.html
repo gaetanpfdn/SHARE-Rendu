@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="no title"></link>
+    <link rel="stylesheet" href="css/main.scss"></link>
+    <link rel="stylesheet" href="css/_navbar.css"></link>
+    <link rel="stylesheet" href="css/accueil-musique.css"></link>
+    <link rel="stylesheet" href="css/accueil.css"></link>
+    <link rel="stylesheet" href="css/drop-player.css"></link>
+    <link rel="stylesheet" href="css/iconham.css"></link>
+    <link rel="stylesheet" href="css/menu-ham.css"></link>
+    <link rel="stylesheet" href="css/page2.css"></link>
+    <title>Share- Mediacenter</title>
+    <link rel="icon" type="image/png" href="img/logo.png" />
+
+  </head>
+
+  <body>
+    <div id="splash" #splash>
+      <span>
+        <img class="logo" src="img/logo.png"/>
+        <p class="txt-intro hvr-sweep-to-right">Welcome in SHARE</p>
+      </span>
+    </div>
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="nav-bar">
+        <button type="button" class="btn-hamburger " aria-label="Left Align" onclick="openNav()">
+        <!--<span class="glyphicon glyphicon-menu-hamburger"></span>-->
+            <div class="col">
+              <div class="con">
+                <div class="bar top"></div>
+                <div class="bar middle"></div>
+                <div class="bar bottom"></div>
+              </div>
+            </div>
+        </button>
+
+        <div class="breadcrumb">
+        <p class="fil-ariane">Accueil</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Médiathèques</a>
+      <a href="#">Listes de lectures</a>
+      <a href="#">Aides</a>
+      <a href="index.html">Déconnexion</a>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+          <div class="dropdown">
+            <button class="btn-mediatheque" type="button" data-toggle="dropdown">
+              <span class="txt-mediatheque">Médiathèques disponibles</span>
+            </button>
+            <span class="glyphicon glyphicon-option-horizontal"></span>
+            <form class="col-sm-12 dropdown-menu">
+
+              <div class="media media1">
+                <input id="toggle1" type="checkbox" name="media" value="Media 1" checked>
+                <label for="toggle1">MacBook Quentin</label>
+              </div>
+              <div class="media media2">
+                <input id="toggle2" type="checkbox" name="media" value="Media 2">
+                <label for="toggle2">Iphone Maxime</label>
+              </div>
+              <div class="media media3">
+                <input id="toggle3" type="checkbox" name="media" value="Media 3">
+                <label for="toggle3"> Samsung Galaxy Julie</label>
+              </div>
+
+            </form>
+        </div>
+      <div>
+    </div>
+</nav>
+
+<div class="content">
+        <div class="col-sm-12 media-music">
+          <a href="page2.html">
+          <div  class="musique">
+              <img class="image-back" src="img/musique.png"/>
+              <h2 class="h2-front col-sm-12">MUSIQUE</h2>
+              <p class="txt-front col-sm-12">70 Artistes</p>
+              <span class="glyphicon glyphicon-menu-right" ></span>
+          </div>
+        </a>
+        </div>
+
+        <div class="col-sm-12 media-music">
+          <div class="photo">
+              <img class="image-back" src="img/chaton.png"/>
+              <h2 class="h2-front col-sm-12">PHOTOS</h2>
+              <p class="txt-front col-sm-12">34 Albums</p>
+              <span class="glyphicon glyphicon-menu-right" ></span>
+          </div>
+        </div>
+
+        <div class="col-sm-12 media-music">
+          <div class="video">
+              <img class="image-back" src="img/interstellar.png"/>
+              <h2 class="h2-front col-sm-12">VIDEOS</h2>
+              <p class="txt-front col-sm-12">120 Vidéos</p>
+              <span class="glyphicon glyphicon-menu-right" ></span>
+          </div>
+        </div>
+
+        <div class="col-sm-12 media-music">
+          <div class="documents">
+              <img class="image-back" src="img/document.png"/>
+              <h2 class="h2-front col-sm-12">DOCUMENTS</h2>
+              <p class="txt-front col-sm-12">13 Dossiers</p>
+              <span class="glyphicon glyphicon-menu-right" ></span>
+          </div>
+        </div>
+      </div>
+
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div id="media-renderers" #media-renderers>
+          <h3 >Drop your files on the player</h3>
+
+  <!-- - événement : tap /press / click/ swipeLeft/
+  - remove (enleve une class), add (ajoute une class), toggle(change une class)
+  --->
+
+      <div id="icondrop">
+        <span class="glyphicon glyphicon-save "></span>
+      </div>
+
+        <div class="list-player1 col-sm-4">
+          <p>TV Samsung</p>
+        </div>
+        <div class="list-player2 col-sm-4">
+          <p>Plex BBox</p>
+        </div>
+        <div class="list-player3 col-sm-4">
+          <p>Plex ASUS</p>
+        </div>
+      </div>
+    </nav>
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+
+.glyphicon-menu-right{
+  color: white;
+  float: right;
+  position: absolute;
+  top: 13vw;
+  left: 85%;
+  padding: 10px 20px 10px 10px;
+  font-size: 15px;
+}
+
+.h2-front{
+  margin: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 0px;
+  text-align: left;
+  color: white ;
+  position: absolute;
+  top: 15vw;
+  font-size: 20px;
+ }
+.txt-front{
+  margin: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 0px;
+  text-align: left;
+  color: white ;
+  position: absolute;
+  top: 20vw;
+  font-size: 10px;
+ }
+ .image-back{
+  display: inline-block;
+  width: 100vw;
+  margin: auto;
+ }
+.media-music{
+  padding: 0px;
+  margin: 0px;
+}
+.logo{
+  margin-left: 22vw;
+  margin-top: 40vh;
+}
+.txt-intro{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 70vw;
+  margin-left: 15vw;
+  margin-top: 5vh;
+  font-family: "Lato", sans-serif;
+}

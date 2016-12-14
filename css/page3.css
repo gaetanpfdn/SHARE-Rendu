@@ -1,0 +1,102 @@
+
+.artiste{
+    width: 100%;
+    height: 10vh;
+    border-bottom: solid 1px #3AE5DC;
+}
+.artiste .glyphicon-triangle-right {
+color: white;
+float: right;
+margin-right: 20px;
+width: 2em;
+display: block;
+margin: 2em auto 0px;
+}
+#metronomy-arrow{
+  float: right;
+  position: relative;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.artiste .h2-titre{
+  display: inline-block;
+  margin: 3vh 0px 0px 20px;
+  text-align: left;
+  color: white ;
+  font-size: 14px;
+}
+.piste-metronomy{
+  border-bottom: solid 1px #BFC1C1;
+  height: 5vh;
+}
+.artiste .h2-metronomy{
+  display: inline-block;
+  margin: 3vh 0px 0px 20px;
+  text-align: left;
+  color: white ;
+  font-size: 14px;
+  font-weight: bold;
+}
+.artiste .p-stitre{
+  margin: 0px 0px 0px 20px;
+  text-align: left;
+  color: white ;
+  font-size: 12px;
+}
+.list-artiste{
+  margin-left: 0vw;
+}
+.list-artiste .titre-scroll{
+  padding: 0px 4vw 0px 4vw;
+  list-style-type: none;
+  background:
+  linear-gradient(40deg, transparent 40%, #25F4E5),
+  linear-gradient(-40deg, #049E9A 20%, #024F4D 90%);
+
+}
+.list-artiste .dropdown{
+  background: none;
+  box-shadow: none;
+  height: 10vh;
+}
+.open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #25F4E5;
+    border-color: #25F4E5;
+}
+.open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #25F4E5;
+    border-color: #25F4E5;
+}
+
+.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+  color: #fff;
+background-color: #25F4E5;
+border-color: #25F4E5;
+}
+.list-artiste .btn-primary{
+  background: none;
+  box-shadow: none;
+  height: 10vh;
+  border: none;
+  text-align: left;
+  width: 100%;
+  display: inline-block;
+  padding: 0px;
+}
+.pistes{
+  display: block;
+  float: left;
+  margin: 1vh 0px 0px 0px;
+}
+.duree{
+  float:right;
+  display: block;
+  margin: 0px;
+  margin: 1vh 0px 0px 0px;
+}
+ul .dropdown-menu{
+  padding: 0px 20px 0px 20px;
+}

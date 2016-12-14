@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="no title"></link>
+    <link rel="stylesheet" href="css/main.scss"></link>
+    <link rel="stylesheet" href="css/_navbar.css"></link>
+    <link rel="stylesheet" href="css/accueil-musique.css"></link>
+    <link rel="stylesheet" href="css/accueil.css"></link>
+    <link rel="stylesheet" href="css/drop-player.css"></link>
+    <link rel="stylesheet" href="css/iconham.css"></link>
+    <link rel="stylesheet" href="css/menu-ham.css"></link>
+    <link rel="stylesheet" href="css/page2.css"></link>
+    <link rel="stylesheet" href="css/page3.css"></link>
+    <title>Share- Mediacenter</title>
+    <link rel="icon" type="image/png" href="img/logo.png" />
+  </head>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="nav-bar">
+        <button type="button" class="btn-hamburger " aria-label="Left Align" onclick="openNav()">
+        <!--<span class="glyphicon glyphicon-menu-hamburger"></span>-->
+            <div class="col">
+              <div class="con">
+                <div class="bar top"></div>
+                <div class="bar middle"></div>
+                <div class="bar bottom"></div>
+              </div>
+            </div>
+        </button>
+
+        <div class="breadcrumb">
+          <a href="page2.html" class="btn-return">
+          <span class="glyphicon glyphicon-arrow-left" ></span>
+          </a>
+        <p class="fil-ariane">Artistes</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Médiathèques</a>
+      <a href="#">Listes de lectures</a>
+      <a href="#">Aides</a>
+      <a href="index.html">Déconnexion</a>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+          <div class="dropdown">
+            <button class="btn-mediatheque" type="button" data-toggle="dropdown">
+              <span class="txt-mediatheque">Médiathèques disponibles</span>
+            </button>
+            <span class="glyphicon glyphicon-option-horizontal"></span>
+            <form class="col-sm-12 dropdown-menu">
+
+              <div class="media media1">
+                <input id="toggle1" type="checkbox" name="media" value="Media 1" checked>
+                <label for="toggle1">MacBook Quentin</label>
+              </div>
+              <div class="media media2">
+                <input id="toggle2" type="checkbox" name="media" value="Media 2">
+                <label for="toggle2">Iphone Maxime</label>
+              </div>
+              <div class="media media3">
+                <input id="toggle3" type="checkbox" name="media" value="Media 3">
+                <label for="toggle3"> Samsung Galaxy Julie</label>
+              </div>
+
+            </form>
+        </div>
+      <div>
+    </div>
+</nav>
+
+<!-- content -->
+      <div class="list-artiste">
+        <ul class="titre-scroll">
+          <li class="artiste">
+            <span class="glyphicon glyphicon-triangle-right" ></span>
+            <h2 class="h2-titre">ACTION BRONSON</h2>
+            <p class="p-stitre">12 Titres</p>
+          </li>
+          <li class="artiste"><span class="glyphicon glyphicon-triangle-right" ></span>
+            <h2 class="h2-titre">AEROSMITH</h2>
+            <p class="p-stitre">24 Titres</p>
+          </li>
+          <li class="artiste"><span class="glyphicon glyphicon-triangle-right" ></span>
+            <h2 class="h2-titre">BEATLES</h2>
+            <p class="p-stitre">36 Titres</p>
+          </li>
+          <li class="artiste">
+            <span class="glyphicon glyphicon-triangle-right" ></span>
+            <h2 class="h2-titre">BIRDY NAM NAM</h2>
+            <p class="p-stitre">6 Titres</p>
+          </li>
+          <li class="artiste"><span class="glyphicon glyphicon-triangle-right" ></span>
+            <h2 class="h2-titre">BOB DYLAN</h2>
+            <p class="p-stitre">12 Titres</p>
+          </li>
+          <li class="artiste"><span class="glyphicon glyphicon-triangle-right" ></span>
+            <h2 class="h2-titre">DR DRE</h2>
+            <p class="p-stitre">14 Titres</p>
+          </li>
+          <li class="artiste"><span class="glyphicon glyphicon-triangle-right" ></span>
+            <h2 class="h2-titre">FAKEAR</h2>
+            <p class="p-stitre">18 Titres</p>
+          </li>
+          <li class="artiste">
+            <span class="glyphicon glyphicon-triangle-right" ></span>
+            <h2 class="h2-titre">LED ZEPPELIN</h2>
+            <p class="p-stitre">45 Titres</p>
+          </li>
+          <li class="artiste">
+              <div class="dropdown">
+              <button class="btn-primary dropdown-toggle bg-btn" type="button" data-toggle="dropdown">
+                <div id="metronomy-arrow">
+              <span class="glyphicon glyphicon-triangle-right" ></span>
+                </div>
+                <h2 class="h2-metronomy">METRONOMY</h2>
+                <p class="p-stitre">3 Titres</p>
+              </button>
+                  <ul class="dropdown-menu">
+                    <li class="piste-metronomy">
+                      <p class="pistes">The English Riviera</p>
+                      <p class="duree">0:37</p>
+                    </li>
+                    <li class="piste-metronomy">
+                      <p class="pistes">We Broke Free</p>
+                      <p class="duree">4:06</p>
+                    </li>
+                    <li class="piste-metronomy">
+                      <p class="pistes">The Look</p>
+                      <p class="duree">4:38</p>
+                    </li>
+                  </ul>
+              </div>
+          </li>
+          <li class="artiste"><span class="glyphicon glyphicon-triangle-right" ></span>
+            <h2 class="h2-titre">SCHOOLBOY Q</h2>
+            <p class="p-stitre">3 Titres</p>
+          </li>
+          <li class="artiste"><span class="glyphicon glyphicon-triangle-right" ></span>
+            <h2 class="h2-titre">THE AVENER</h2>
+            <p class="p-stitre">18 Titres</p>
+          </li>
+          <li class="artiste"><span class="glyphicon glyphicon-triangle-right" ></span>
+            <h2 class="h2-titre">THE WHITE STRIPES</h2>
+            <p class="p-stitre">18 Titres</p>
+          </li>
+          <li class="artiste"><span class="glyphicon glyphicon-triangle-right" ></span>
+            <h2 class="h2-titre">THE AVENER</h2>
+            <p class="p-stitre">18 Titres</p>
+          </li>
+        </ul>
+      </div>
+
+<!-- navbar bottom -->
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div id="media-renderers" #media-renderers>
+          <h3 >Drop your files on the player</h3>
+
+
+      <div id="icondrop">
+        <span class="glyphicon glyphicon-save "></span>
+      </div>
+
+        <div class="list-player1 col-sm-4">
+          <p>TV Samsung</p>
+        </div>
+        <div class="list-player2 col-sm-4">
+          <p>Plex BBox</p>
+        </div>
+        <div class="list-player3 col-sm-4">
+          <p>Plex ASUS</p>
+        </div>
+      </div>
+    </nav>
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
